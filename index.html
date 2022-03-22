@@ -12,24 +12,32 @@
   <body>
     <!--container start-->
     <div class="container">
-      <!--header section start-->
-      <header>
-      </header>
-      <!--header section ends-->
       <!--main section start-->
       <main>
+        <h2>Drink Water</h2>
+        <p>Goal: 2 Liters</p>
+        <div class="glass">
+          <div class="remained" id="remained">
+            <span class="litre"></span>
+            <p>Remained</p>
+          </div>
+          <div class="percentage" id="percentage"></div>
+        </div>
+        <p>Select how many glasses of water that you have drank</p>
+        <div class="cups">
+          <div class="cup">250 ml</div>
+          <div class="cup">250 ml</div>
+          <div class="cup">250 ml</div>
+          <div class="cup">250 ml</div>
+          <div class="cup">250 ml</div>
+          <div class="cup">250 ml</div>
+          <div class="cup">250 ml</div>
+          <div class="cup">250 ml</div>
+        </div>
       </main>
       <!--main section end-->
-      <!--footer section start-->
-      <footer>      
-      </footer>
-      <!--footer section end-->
     </div>
     <!--container end-->
   </body>
-  <script>
-    fetch("users.json").then(response => response.json()).then(data => {
-      console.log(data)
-    })
-  </script>
+  <script src="app.js"></script>
 </html>
